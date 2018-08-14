@@ -63,5 +63,3 @@ for turn in range(180):
         three.goto(0,10)
         break
 one.exitonclick()
-
-`
