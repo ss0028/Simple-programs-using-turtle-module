@@ -1,3 +1,4 @@
+#Created by Shikha Singh
 from turtle import *
 from random import randint
 speed(12)
@@ -38,6 +39,7 @@ write(a)
 addk=0
 addkk=0
 addkkk=0
+
 for turn in range(180):
     k=randint(1,5)
     rd=randint(1,5)
@@ -58,6 +60,6 @@ for turn in range(180):
     elif addkkk>=500:
         three.goto(0,10)
         break
-
+one.exitonclick()
 
 `
